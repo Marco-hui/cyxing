@@ -1,0 +1,22 @@
+#information{
+    position: absolute;background: #fff;top: 0;right: 0;bottom: 0;left: 0;font-size:0.533333rem;display:flex;flex-direction:column;
+    .header{
+        height: 1.2rem;border-bottom:1px solid #333;display:flex;font-size:0.5rem;background: #0cf;color:#fff;
+        i{width: 1.333333rem;text-align: center;line-height: 1.2rem;color:#fff;font-weight: normal;}
+        h4{flex:1;text-align: center;line-height: 1.2rem;font-weight: normal;}
+    }
+    .main{
+        flex:1;overflow: auto;
+        ul li{
+            border-bottom: 1px solid #999;padding: 0.266667rem;
+            img{width: 1.333333rem;height: 1.333333rem;border-radius:50%;margin-right: 0.4rem;margin-top: 0.266667rem;}
+            &>div{
+                font-size:0.373333rem;
+                p.member{font-size:0.426667rem;font-weight:600;}
+                p.project{color:#666;margin-bottom: 0.266667rem;}
+                button{font-size:0.373333rem;border:0 none;background: #0cf;color:#fff;padding: 0.08rem;border-radius:0.08rem;margin-left: 0.4rem;}
+                button.reject{background: #f00;}
+            }
+        }
+    }
+}

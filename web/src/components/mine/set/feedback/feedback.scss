@@ -1,0 +1,16 @@
+#M-feedback{
+    position: absolute;background: #fff;top: 0;right: 0;bottom: 0;left: 0;font-size:0.533333rem;display:flex;flex-direction:column;
+    .header{
+        height: 1.2rem;border-bottom:1px solid #333;display:flex;font-size:0.5rem;background: #0cf;color:#fff;
+        i{width: 1.333333rem;text-align: center;line-height: 1.2rem;color:#fff;font-weight: normal;}
+        h4{flex:1;text-align: center;line-height: 1.2rem;font-weight: normal;}
+    }
+    .main{
+        flex:1;
+        textarea{display: block;width: 95%;height: 4.0rem;margin: 0.4rem auto;border:0 none;background: #eee;padding:0.133333rem;font-size:0.373333rem;}
+        .btn{display: block;width: 95%;margin: 0.266667rem auto;border:0 none;background: #0cf;color:#fff;font-size:0.426667rem;text-align: center;line-height: 0.933333rem;border-radius:0.106667rem;}
+    }
+    .hint{
+        font-size:0.373333rem;color:#fff;background: rgba(0,0,0,.7);display: inline-block;padding: 0.266667rem;border-radius:0.533333rem;
+    }
+}

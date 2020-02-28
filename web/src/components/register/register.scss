@@ -1,0 +1,88 @@
+#register{
+    padding:60px;
+    height:100%;
+    background:url("../../assets/img/logo/star4.gif") no-repeat center;
+    background-size:cover;
+    opacity:0.9;
+    .fh{
+        position:absolute;
+        left:20px;
+        top:20px;
+        font-size:32px;
+        color:#f60;
+        font-style:normal;
+    }
+    .head{
+        font-size:28px; //14px
+        padding:40px 0 80px;
+        h5{
+            font-size:36px;
+            padding:10px 0;
+            color:#0ff;
+            margin-bottom:0.266667rem;
+        }
+        img{
+            width:366px;
+            height:140px;
+        }
+    }
+    .showtishi{
+        color:red;
+        font-size:34px;
+        padding-bottom:10px;
+        text-align: center;
+    }
+    .phone{
+        margin-bottom: 50px;
+        .username{
+            background-color:#f8f8f8;
+            width:100%;
+            display:block;
+            font-size: 28px;
+            line-height: 50px;
+            border-radius: 0;
+            padding: 10px 0 10px 20px;
+        }
+    }
+    .pwd{
+        margin-bottom: 50px;
+        .password{
+            background-color:#f8f8f8;
+            width:100%;
+            display:block;
+            font-size: 28px;
+            line-height: 50px;
+            border-radius: 0;
+            padding: 10px 0 10px 20px;
+        }
+    }
+    .vcode{
+        input{
+            background-color:#f8f8f8;
+            width:50%;
+            display:inline-block;
+            font-size: 28px;
+            line-height: 50px;
+            border-radius: 0;
+            padding: 10px 0 10px 20px;
+        }
+        span{font-size:0.48rem;margin-left: 0.266667rem;letter-spacing:0.133333rem;background: #ccc;color:#fff;padding:0.16rem;}
+    }
+    .btnreg{
+        display: block;
+        width: 100%;
+        height: 88px;
+        line-height: 88px;
+        font-size:0.48rem;
+        margin-top: 0.533333rem;
+        text-align: center;
+        color: #fff;
+        outline: none;
+        background-color: #ccc;
+    }
+    .tips{
+        margin-top: 40px;
+        font-size: 32px;
+        color: #00f;
+    }
+}

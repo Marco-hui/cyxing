@@ -1,0 +1,68 @@
+
+    
+#project{
+    flex:1;overflow: auto;background: #eee;
+    .hint{text-align: center;font-size:0.293333rem;color:#999;margin: 0.266667rem 0;}
+    ul li{
+        padding: 0.266667rem;font-size:0.373333rem;margin-bottom: 0.266667rem;background: #fff;
+        .top{
+            font-size:0.426667rem;
+            .proName{padding: 0.133333rem 0;}
+            .join{padding: 0.133333rem;border-radius:0.133333rem;background: #0cf;color:#fff;}
+        }
+        .mid{
+            border-bottom:1px solid #999;padding:0.266667rem 0;
+            .left{
+                width: 30%;
+                img{width: 1.333333rem;height: 1.333333rem;border-radius:50%;border:1px solid #666;margin: 0 auto;margin-bottom: 0.133333rem;}
+                p{
+                    font-size:0.32rem;line-height: 0.533333rem;
+                    i{margin-right: 0.08rem;width: 0.48rem;text-align: center;color:#58bc58;}
+                }
+            }
+            .right{
+                width: 68%;
+                .r_type{
+                    p{
+                        line-height: 0.666667rem;
+                        i{color:#c0f;margin-right: 0.133333rem;}
+                        span{color:#f60;}
+                        span.memberTotal{color:#666;}
+                        &.fr{margin-right: 0.266667rem;}
+                    }
+                }
+                .r_brief{
+                    max-height:3.2rem;overflow: auto;
+
+                }
+            }
+        }
+        .bot{
+            padding: 0.133333rem 0.133333rem;
+            .clfix{
+                margin-bottom: 0.133333rem;
+                .fl{color:#999;}
+                .fr{
+                    margin-right: 0.533333rem;
+                    i{margin-right: 0.133333rem;}
+                }
+            }
+            .input{
+                border-top: 1px solid #999;padding: 0.133333rem 0;display: none;
+                i{font-size:0.633333rem;color:#666;margin: 0 0.133333rem;}
+                textarea{height: 0.586667rem;width: 70%; vertical-align: bottom;font-size:0.373333rem;border:0 none;border-bottom: 1px solid #58bc58;}
+                button{padding: 0.133333rem;font-size:0.373333rem;margin-left: 0.133333rem;border:0 none;border-radius:0.08rem;background: #58bc58;color:#fff;}
+            }
+            .input.show{display: block;}
+        }
+        .comment{
+            background: #eee;padding: 0.213333rem;
+            p{font-size:0.206rem;margin-bottom: 0.133333rem;}
+            span{font-size:0.38rem;}
+            i.name{color:#0cf;font-style:normal;font-size:0.38rem;}
+        }
+    }
+}
+
+
+li.el-select-dropdown__item{font-size:0.426667rem;padding:0.133333rem;height: 0.666667rem;}

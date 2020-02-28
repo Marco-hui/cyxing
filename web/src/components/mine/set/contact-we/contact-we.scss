@@ -1,0 +1,33 @@
+#M-contact{
+    position: absolute;background: #fff;top: 0;right: 0;bottom: 0;left: 0;font-size:0.533333rem;display:flex;flex-direction:column;
+    .header{
+        height: 1.2rem;border-bottom:1px solid #333;display:flex;font-size:0.5rem;background: #0cf;color:#fff;
+        i{width: 1.333333rem;text-align: center;line-height: 1.2rem;color:#fff;font-weight: normal;}
+        h4{flex:1;text-align: center;line-height: 1.2rem;font-weight: normal;}
+    }
+    .mian{
+        flex:1;
+        .logo img{margin: 0.533333rem auto;}
+        ul.contact1{
+            font-size:0.426667rem;text-align: center;margin-top: 1.066667rem;
+            li{
+                margin-bottom: 0.266667rem;
+                i{color:#0cf;margin-right: 0.266667rem;}
+                span{margin-right: 0.266667rem;}
+            }
+        }
+        ul.contact2{
+            margin-top: 0.533333rem;
+            li{
+                margin-left: 1.5rem;
+                i{width: 2.5rem;height:2.5rem;background: url(../../../../assets/img/tdCode/wechat-private.jpg) no-repeat 0 0;}
+                &.wechat-Official i{background-image: url(../../../../assets/img/tdCode/wechat-official.jpg)}
+                span{display: block;text-align: center;font-size:0.373333rem;}
+            }
+        }
+        .copyright{
+            margin-top: 0.8rem;
+            p{font-size:0.32rem;color:#999;text-align: center;line-height: 0.533333rem;}
+        }
+    }
+}

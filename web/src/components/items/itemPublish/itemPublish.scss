@@ -1,0 +1,35 @@
+#itemPublish{
+    position: absolute;background: #fff;top: 0;right: 0;bottom: 0;left: 0;font-size:0.533333rem;display:flex;flex-direction:column;
+    .header{
+        height: 1.2rem;border-bottom:1px solid #333;display:flex;
+        i{width: 1.333333rem;text-align: center;line-height: 1.2rem;color:#0cf;font-weight: normal;font-style:normal;font-size:0.48rem;}
+        i.publish{width: 1.466667rem;}
+        h4{flex:1;text-align: center;line-height: 1.2rem;font-weight: normal;font-size:0.533333rem;}
+    }
+    .main{
+        background: #fff;padding:0.266667rem;
+        p{
+            font-size:0.426667rem;margin-bottom: 0.366667rem;
+            label{}
+            input{
+                margin-top:0.133333rem;font-size:0.373333rem;display: block;width: 100%;height: 0.8rem;margin-left: 0.08rem;border:1px solid #666;padding-left: 0.133333rem;
+            }
+            textarea{
+                display: block;width: 100%;height: 2.666667rem;border:1px solid #666; margin-top:0.133333rem;font-size:0.32rem;padding-left: 0.133333rem;
+            }
+            &.ProTeamNumber{
+                label{line-height: 0.8rem;}
+                input{width: 1.333333rem;margin: 0;padding: 0;text-align: center;}
+            }
+            &.ProType{
+                i.el-select__caret.el-input__icon.el-icon-arrow-up{font-size:0.4rem;}
+                .el-select .el-input .el-select__caret.is-reverse {
+                    -webkit-transform: rotateZ(0);
+                    transform: rotateZ(0) translateY(20px);
+                }
+            }
+        }
+    }
+    .tips{background: rgba(0,0,0,.5);padding: 0.266667rem;border-radius:0.533333rem;font-size:0.426667rem;color:#fff;display: none;}
+}
+li.el-select-dropdown__item{font-size:0.426667rem;padding:0.133333rem;height: 0.666667rem;}

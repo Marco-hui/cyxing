@@ -1,0 +1,35 @@
+#bookDetail{
+    position: absolute;background: #fff;top: 0;right: 0;bottom: 0;left: 0;font-size:0.533333rem;display:flex;flex-direction:column;
+    .header{
+        height: 1.2rem;border-bottom:1px solid #333;display:flex;
+        i{width: 1.333333rem;text-align: center;line-height: 1.2rem;color:#0cf;font-weight: normal;}
+        h4{flex:1;text-align: center;line-height: 1.2rem;font-weight: normal;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;font-size:0.48rem;}
+    }
+    .DetailMian{
+        flex:1;overflow: auto;
+        .img{
+            img{margin: 0.266667rem auto;}
+        }
+        .detail1{
+            padding: 0.266667rem;
+            .describe{color:#666;font-size:0.426667rem;margin-bottom: 0.266667rem;}
+            .price{color:#f60;}
+        }
+        ul.msg{
+            background: #eee;padding:0.133333rem 0;
+            li{
+                padding:0 0.266667rem;border-bottom: 1px solid #999;line-height: 1.333333rem;background: #fff;font-size:0.426667rem;
+                span{color:#666;margin-right: 0.533333rem;}
+            }
+        }
+        .shops{
+            .top{
+                padding:0.266667rem;
+                .el-icon-arrow-right{color:#999;}
+            }
+            .bot{
+                button{width: 4.0rem;height: 0.8rem;text-align: center;line-height: 0.8rem;font-size:0.426667rem;border:1px solid #999;margin: 0 0.4rem;background: #fff;}
+            }
+        }
+    }
+}

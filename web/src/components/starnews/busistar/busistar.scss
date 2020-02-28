@@ -1,0 +1,18 @@
+.busistar{
+    .busistarList{
+        li a{
+            display: flex;padding: 0.266667rem 0.133333rem;border-bottom:1px solid #ccc;
+            .img{
+                width: 3.573333rem;
+                img{width: 3.573333rem;max-height: 2.933333rem;}
+            }
+            .content{
+                padding-left: 0.133333rem;font: 1;
+                p{
+                    margin-bottom: 0.133333rem;
+                    span{font-size:0.373333rem;margin-right: 0.566667rem;}
+                }
+            }
+        }
+    }
+}

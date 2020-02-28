@@ -1,0 +1,143 @@
+body,html{height:100%};
+#chatwindow{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    >.header{
+        height:1.382051rem;
+        background-color: #ff9b54;
+        color: #fff;
+        padding:0 0.320513rem;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        >.left{
+            padding-top:0.32735rem;
+            font-size:0.6rem;
+        }
+        >.center{
+            >p{
+                padding-top:0.42735rem;
+                font-size:0.42735rem;
+            }
+        }
+        >.right{
+            padding-top:0.42735rem;
+            font-size:0.470085rem;
+            >span{
+                font-size:0.470085rem;
+            }
+        }
+    }
+    >.body{
+        flex:1;
+        overflow-x:hidden;
+        padding:0.266667rem 0;
+        >ul{
+            padding:0 0.213675rem;
+            >li{
+                margin-top:0.213675rem;
+                overflow:hidden;
+                >div{
+                    float:left;
+                    >img{
+                        width:0.8rem;
+                        float:left;
+                        border-radius:50%;
+                        margin-right: 0.266667rem;
+                    }
+                    >div{
+                        font-size:0.413333rem;
+                        padding:0.313675rem;
+                        border-radius:0.106838rem;
+                        background-color:#dadada;
+                        float:left;
+                        vertical-align:middle;
+                        >img{
+                            display:inline-block;
+                            border-radius:50%;
+                            // float:left;
+                            vertical-align:middle;
+                        }
+                    }
+                }
+                >.user{
+                    float:right;
+                    >img{
+                        width:0.8rem;
+                        float:right;
+                        border-radius:50%;
+                        margin: 0 0 0 0.266667rem;
+                    }
+                    >div{
+                        font-size:0.413333rem;
+                        padding:0.313675rem;
+                        border-radius:0.106838rem;
+                        background-color:orange;
+                        float:left;
+                    }
+                }
+            }
+            
+        }
+    }
+    >.footer{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        padding:0 0.320513rem;
+        background-color:#dadada;
+        position:relative;
+        >.left{
+            padding-left:0.320513rem;
+            margin-top:-0.133333rem;
+            >span{
+                margin-right:0.320513rem;
+                font-size:0.641026rem;
+            }
+        }
+        >.right{
+            padding-top:0.299145rem;
+                >div{
+                    outline:none;
+                    background-color:#fff;
+                    font-size:0.512821rem;
+                    float:left;
+                    display:block;
+                    width:4.273504rem;
+                    height:0.747863rem;
+                    margin-right:0.42735rem;
+                    overflow-x:hidden;
+                    >img{
+                        display:inline;
+                        width:0.413333rem;
+                    }
+                }
+                >button{
+                    float:left;
+                    display:block;
+                    height:0.747863rem;
+                    line-height:0.747863rem;
+                    font-size:0.384615rem;
+                }
+            
+        }
+        >.expressionpackage{
+            position:absolute;
+            bottom:1.468376rem;
+            left:0.42735rem;
+            
+            >.for_tieba{
+                max-width:6.510256rem;
+                >a{
+                    float:left;
+                    border:1px solid #666;
+                    >img{
+                        width: 0.620513rem;
+                    }
+                }
+            }
+        }
+    }
+}

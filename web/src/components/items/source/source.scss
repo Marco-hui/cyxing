@@ -1,0 +1,26 @@
+#Msource{
+    position: absolute;background: #fff;top: 0;right: 0;bottom: 0;left: 0;font-size:0.533333rem;display:flex;flex-direction:column;
+    .header{
+        height: 1.2rem;border-bottom:1px solid #333;display:flex;
+        i{width: 1.333333rem;text-align: center;line-height: 1.2rem;color:#0cf;font-weight: normal;}
+        h4{flex:1;text-align: center;line-height: 1.2rem;font-weight: normal;}
+    }
+    .search{
+        height: 1.333333rem;position: relative;background: rgba(0,111,255,.5);
+        .locate{
+            input{width: 5.366667rem;height: 0.846667rem;padding: 0 0.266667rem 0 0.866667rem;border:0 none;background: #eee;font-size:0.466667rem;border-radius:0.133333rem;}
+            i{position: absolute;left: 0.15rem;top: 0.233333rem;font-size:0.533333rem;}
+        }
+    }
+    .main{
+        flex:1;overflow: auto;padding-bottom: 0.266667rem;
+        ul li{
+            padding: 0.1rem 0.26rem;
+            a{font-size:0.3rem;}
+            span{font-size:0.373333rem;color:#999;margin-right: 0.4rem;}
+            i.fa-eye{margin-top: -0.066667rem;}
+        }
+        .empty{text-align: center;font-size:0.426667rem;color:#f00;}
+        .hint{text-align: center;font-size:0.193333rem;color:#999;margin: 0.266667rem 0;}
+    }
+}

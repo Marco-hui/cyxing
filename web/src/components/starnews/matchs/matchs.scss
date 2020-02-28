@@ -1,0 +1,14 @@
+.M-matchs{
+    ul.matchsList{
+        padding: 0.266667rem;
+        li{
+            padding:0.266667rem 0;border-bottom: 1px solid #ccc;
+            img{width:48%;height:2.6rem;margin-right: 0.213333rem;}
+            .content{
+                width: 48%;
+                p.name{font-weight: bold;text-align: center;margin-bottom: 0.133333rem;}
+                p.hold_unit{font-size:0.373333rem;color:#0cf;}
+            }
+        }
+    }
+}

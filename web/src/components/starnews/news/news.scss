@@ -1,0 +1,42 @@
+.news{
+    .newsList{
+        li.mainnew{
+            height: 2.3rem;
+            margin-bottom: 0.5rem;
+            position: relative;
+            border-bottom: 1px solid black;
+            &:last-child{margin-bottom: 0;}
+            img{
+                background: blue;
+                width: 1.6rem;
+                height: 1.6rem;
+                position: absolute;
+                left:0.35rem;
+                top:0.15rem;
+            }
+            .content{
+                margin-left: 2.5rem;
+                margin-top:0.1rem;
+                p.title{
+                    padding-top: 0.12rem;
+                    font-size: 0.46rem;
+                    white-space:nowrap;text-overflow:ellipsis;overflow:hidden;width:7rem;
+                 }
+                p.from{
+                    margin-top: 0.2rem;
+                    width: 5.3rem;  /*必须设置宽度*/
+                    overflow: hidden;  /*溢出隐藏*/
+                    text-overflow: ellipsis; /*以省略号...显示*/
+                    white-space: nowrap;  /*强制不换行*/
+                    font-size: 0.3rem;
+                }
+                i{
+                    position: absolute;
+                    right:1rem;
+                    bottom:0.25rem;
+                    font-size: 0.33rem;
+                }
+            }
+        }
+    }
+}

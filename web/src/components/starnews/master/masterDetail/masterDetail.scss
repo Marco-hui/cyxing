@@ -1,0 +1,26 @@
+#masterDetail{
+    position: absolute;background: #fff;top: 0;right: 0;bottom: 0;left: 0;font-size:0.533333rem;display:flex;flex-direction:column;
+    .header{
+        height: 1.2rem;border-bottom:1px solid #333;display:flex;
+        i{width: 1.333333rem;text-align: center;line-height: 1.2rem;color:#0cf;font-weight: normal;}
+        h4{flex:1;text-align: center;line-height: 1.2rem;font-weight: normal;overflow: hidden;text-overflow:ellipsis;white-space:nowrap;font-size:0.48rem;}
+    }
+    .DetailMian{
+        padding: 0.133333rem;flex:1;overflow: auto;
+        .information{
+            display:flex;margin-bottom: 0.266667rem;
+            .img{
+                width: 3.573333rem;margin-right: 0.266667rem;
+                img{width: 3.573333rem;max-height: 2.933333rem;}
+            }
+            .msg{
+                font-size:0.373333rem;
+                p.name{font-size:0.426667rem;}
+            }
+        }
+        .introduce{
+            h4{font-size:0.426667rem;}
+            p{font-size:0.32rem;text-indent:2em;}
+        }
+    }
+}
